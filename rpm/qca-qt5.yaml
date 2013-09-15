@@ -21,7 +21,7 @@ PkgBR:
     - cmake
 Requires:
     - ca-certificates
-#SetupOptions: -q -n %{name}-%{version}/%{name}
+SetupOptions: -q -n %{name}-%{version}/%{name}
 Configure: none
 SubPackages:
     - Name: devel
