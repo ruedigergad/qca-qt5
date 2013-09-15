@@ -4,9 +4,9 @@ Version: 2.0.3
 Release: 1
 Group: System/Libraries
 License: LGPLv2+
-URL: http://delta.affinix.com/qca
+URL: http://quickgit.kde.org/?p=qca.git
 Sources:
-    - "qca-2.0.3-git.tar.gz"
+    - "%{name}-%{version}.tar.gz"
 Description: |
     The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-
     platform API for a range of cryptographic features, including SSL/TLS,

@@ -13,8 +13,8 @@ Version:    2.0.3
 Release:    1
 Group:      System/Libraries
 License:    LGPLv2+
-URL:        http://delta.affinix.com/qca
-Source0:    qca-2.0.3-git.tar.gz
+URL:        http://quickgit.kde.org/?p=qca.git
+Source0:    %{name}-%{version}.tar.gz
 Source100:  qca-qt5.yaml
 Requires:   ca-certificates
 Requires(post): /sbin/ldconfig
@@ -48,7 +48,7 @@ Qt Cryptographic Architecture.
 
 
 %prep
-%setup -q -n qca
+%setup -q -n %{name}-%{version}
 
 # >> setup
 # << setup
