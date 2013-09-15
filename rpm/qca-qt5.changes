@@ -1,0 +1,42 @@
+* Sun Sep 15 2013 Ruediger Gad <r.c.g@gmx.de> - 2.0.3
+- First try on getting an Qt5 build ready.
+
+* Fri Aug 24 2012 Marko Saukko <marko.saukko@jollamobile.com> - 2.0.3
+- Use rootcerts.pem from ca-certificates.
+
+* Wed May 23 2012 Ruediger Gad <r.c.g@gmx.de> - 2.0.3
+- Use latest upstream version.
+
+* Sun May 20 2012 Ruediger Gad <r.c.g@gmx.de> - 2.0.2
+- Use *.yaml and *.spec files to package Harmattan version qca2_2.0.2-3+0m6.
+
+* Tue Jul 27 2010 Fathi Boudra <fathi.boudra@nokia.com> - 2.0.2
+- Cleanup the spec file
+- Add spectacle support
+
+* Sun Jan 24 2010 Anas Nashif <anas.nashif@intel.com> - 2.0.2
+- Update to 2.0.2
+
+* Wed Aug 19 2009 Xu Li <xu.li@intel.com> - 2.0.0-3
+- Initial import to Moblin
+
+* Fri May 30 2008 Dennis Gilmore <dennis@ausil.us> - 2.0.0-3
+- crypto.prf is in libdir not datadir
+
+* Mon Feb 18 2008 Fedora Release Engineering <rel-eng@fedoraproject.org> - 2.0.0-2
+- Autorebuild for GCC 4.3
+
+* Sun Oct 21 2007 Aurelien Bompard <abompard@fedoraproject.org> - 2.0.0-1
+- version 2.0.0 final
+
+* Sun Oct 21 2007 Aurelien Bompard <abompard@fedoraproject.org> - 2.0.0-0.4.beta7
+- fix build on x86_64
+
+* Sun Oct 21 2007 Aurelien Bompard <abompard@fedoraproject.org> - 2.0.0-0.3.beta7
+- missing BR: openssl
+
+* Thu Sep 13 2007 Aurelien Bompard <abompard@fedoraproject.org> - 2.0.0-0.2.beta7
+- review from bug 289681 (thanks Rex)
+
+* Sun Sep 09 2007 Aurelien Bompard <abompard@fedoraproject.org> - 2.0.0-0.1.beta7
+- initial package 

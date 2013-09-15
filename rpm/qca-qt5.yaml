@@ -1,0 +1,39 @@
+Name: qca-qt5
+Summary: Qt Cryptographic Architecture
+Version: 2.0.3
+Release: 1
+Group: System/Libraries
+License: LGPLv2+
+URL: http://delta.affinix.com/qca
+Sources:
+    - "qca-2.0.3-git.tar.gz"
+Description: |
+    The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-
+    platform API for a range of cryptographic features, including SSL/TLS,
+    X.509 certificates, SASL, OpenPGP, S/MIME CMS, and smart cards.
+PkgConfigBR:
+    - Qt5Core
+    - Qt5Concurrent
+    - Qt5Network
+    - openssl
+PkgBR:
+    - ca-certificates
+    - cmake
+Requires:
+    - ca-certificates
+#SetupOptions: -q -n %{name}-%{version}/%{name}
+Configure: none
+SubPackages:
+    - Name: devel
+      Summary: Qt Cryptographic Architecture - development files
+      Group: Development/Libraries
+      Description: |
+          The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-
+          platform API for a range of cryptographic features, including SSL/TLS,
+          X.509 certificates, SASL, OpenPGP, S/MIME CMS, and smart cards.
+
+          This package contains development files for building software that uses the
+          Qt Cryptographic Architecture.
+      Obsoletes:
+        - qca2-devel <= 2.0.3
+
