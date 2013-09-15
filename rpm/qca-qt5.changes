@@ -1,5 +1,5 @@
 * Sun Sep 15 2013 Ruediger Gad <r.c.g@gmx.de> - 2.0.3
-- First try on getting an Qt5 build ready.
+- First try on getting a Qt5 build ready.
 
 * Fri Aug 24 2012 Marko Saukko <marko.saukko@jollamobile.com> - 2.0.3
 - Use rootcerts.pem from ca-certificates.
