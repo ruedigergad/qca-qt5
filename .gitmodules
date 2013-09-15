@@ -1,0 +1,3 @@
+[submodule "qca"]
+	path = qca
+	url = git://anongit.kde.org/qca.git
