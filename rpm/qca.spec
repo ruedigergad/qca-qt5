@@ -20,7 +20,6 @@ Requires:   ca-certificates
 Requires(post): /sbin/ldconfig
 Requires(postun): /sbin/ldconfig
 BuildRequires:  pkgconfig(QtCore) < 5
-BuildRequires:  pkgconfig(QtConcurrent) < 5
 BuildRequires:  pkgconfig(QtNetwork) < 5
 BuildRequires:  pkgconfig(openssl)
 BuildRequires:  ca-certificates

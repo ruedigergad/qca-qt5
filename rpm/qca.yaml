@@ -13,7 +13,6 @@ Description: |
     X.509 certificates, SASL, OpenPGP, S/MIME CMS, and smart cards.
 PkgConfigBR:
     - QtCore < 5
-    - QtConcurrent < 5
     - QtNetwork < 5
     - openssl
 PkgBR:
