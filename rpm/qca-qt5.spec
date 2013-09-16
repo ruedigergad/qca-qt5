@@ -36,7 +36,6 @@ X.509 certificates, SASL, OpenPGP, S/MIME CMS, and smart cards.
 Summary:    Qt Cryptographic Architecture - development files
 Group:      Development/Libraries
 Requires:   %{name} = %{version}-%{release}
-Obsoletes:  qca2-devel <= 2.0.3
 
 %description devel
 The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-

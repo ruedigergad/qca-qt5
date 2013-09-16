@@ -34,6 +34,4 @@ SubPackages:
 
           This package contains development files for building software that uses the
           Qt Cryptographic Architecture.
-      Obsoletes:
-        - qca2-devel <= 2.0.3
 
