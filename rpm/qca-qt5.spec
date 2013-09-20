@@ -54,7 +54,7 @@ Qt Cryptographic Architecture.
 
 %build
 # >> build pre
-%cmake -D BUILD_TESTS:BOOL=OFF  .
+%cmake -D BUILD_TESTS:BOOL=OFF -D QCA_INSTALL_IN_QT_PREFIX:BOOL=ON .
 sed -i -e /strip/d Makefile
 # << build pre
 

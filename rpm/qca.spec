@@ -25,6 +25,7 @@ BuildRequires:  pkgconfig(openssl)
 BuildRequires:  ca-certificates
 BuildRequires:  cmake
 Obsoletes:   qca2 <= 2.0.3
+Obsoletes:   qca-ossl
 
 %description
 The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-
@@ -55,7 +56,7 @@ Qt Cryptographic Architecture.
 
 %build
 # >> build pre
-%cmake -D BUILD_TESTS:BOOL=OFF  .
+%cmake -D BUILD_TESTS:BOOL=OFF -D QCA_INSTALL_IN_QT_PREFIX:BOOL=ON .
 sed -i -e /strip/d Makefile
 # << build pre
 
