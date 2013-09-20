@@ -92,7 +92,7 @@ rm -rf %{buildroot}
 %files devel
 %defattr(-,root,root,-)
 # >> files devel
-%{_includedir}/QtCrypto
+%{_includedir}/qt4/QtCrypto
 %{_libdir}/libqca.so
 %{_libdir}/pkgconfig/qca2.pc
 %{_datadir}/qt4/mkspecs/features/crypto.prf
