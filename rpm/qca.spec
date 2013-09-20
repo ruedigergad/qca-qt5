@@ -24,6 +24,7 @@ BuildRequires:  pkgconfig(QtNetwork) < 5
 BuildRequires:  pkgconfig(openssl)
 BuildRequires:  ca-certificates
 BuildRequires:  cmake
+Provides:   qca-ossl
 Obsoletes:   qca2 <= 2.0.3
 Obsoletes:   qca-ossl
 

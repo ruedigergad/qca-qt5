@@ -21,6 +21,8 @@ PkgBR:
 Obsoletes:
     - qca2 <= 2.0.3
     - qca-ossl
+Provides:
+    - qca-ossl
 Requires:
     - ca-certificates
 SetupOptions: -q -n %{name}-%{version}/qca
