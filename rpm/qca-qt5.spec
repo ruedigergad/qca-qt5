@@ -83,7 +83,7 @@ rm -rf %{buildroot}
 %doc COPYING README TODO
 %{_bindir}/qcatool2-qt5
 %{_libdir}/libqca-qt5.so.*
-%{_libdir}/plugins/qca-qt5/*
+%{_libdir}/qt5/plugins/qca-qt5/*
 %{_mandir}/*/*
 # << files
 
