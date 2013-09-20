@@ -86,7 +86,7 @@ rm -rf %{buildroot}
 %{_libdir}/qt4/bin/qcatool2
 %{_libdir}/libqca.so.*
 %{_libdir}/qt4/plugins/qca/*
-%{_mandir}/*/*
+%{_datadir}/qt4/man/*/*
 # << files
 
 %files devel

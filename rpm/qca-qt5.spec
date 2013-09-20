@@ -84,7 +84,7 @@ rm -rf %{buildroot}
 %{_libdir}/qt5/bin/qcatool2-qt5
 %{_libdir}/libqca-qt5.so.*
 %{_libdir}/qt5/plugins/qca-qt5/*
-%{_mandir}/*/*
+%{_datadir}/qt5/man/*/*
 # << files
 
 %files devel
