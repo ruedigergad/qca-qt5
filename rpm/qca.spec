@@ -24,9 +24,7 @@ BuildRequires:  pkgconfig(QtNetwork) < 5
 BuildRequires:  pkgconfig(openssl)
 BuildRequires:  ca-certificates
 BuildRequires:  cmake
-Provides:   qca-ossl > 2.0.0
 Obsoletes:   qca2 <= 2.0.3
-Obsoletes:   qca-ossl <= 2.0.0
 
 %description
 The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-
