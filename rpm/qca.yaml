@@ -20,9 +20,9 @@ PkgBR:
     - cmake
 Obsoletes:
     - qca2 <= 2.0.3
-      #    - qca-ossl <= 2.0.0
-      #Provides:
-      #    - qca-ossl > 2.0.0
+    - qca-ossl <= 2.0.0
+Provides:
+    - qca-ossl > 2.0.0
 Requires:
     - ca-certificates
 SetupOptions: -q -n %{name}-%{version}/qca
