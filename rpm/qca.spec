@@ -24,6 +24,7 @@ BuildRequires:  pkgconfig(QtNetwork) < 5
 BuildRequires:  pkgconfig(openssl)
 BuildRequires:  ca-certificates
 BuildRequires:  cmake
+Provides:   qca2
 Provides:   qca-ossl > 2.0.0
 Obsoletes:   qca2 <= 2.0.3
 Obsoletes:   qca-ossl <= 2.0.0
@@ -38,6 +39,7 @@ X.509 certificates, SASL, OpenPGP, S/MIME CMS, and smart cards.
 Summary:    Qt Cryptographic Architecture - development files
 Group:      Development/Libraries
 Requires:   %{name} = %{version}-%{release}
+Provides:   qca2-devel
 Obsoletes:  qca2-devel <= 2.0.3
 
 %description devel

@@ -22,6 +22,7 @@ Obsoletes:
     - qca2 <= 2.0.3
     - qca-ossl <= 2.0.0
 Provides:
+    - qca2
     - qca-ossl > 2.0.0
 Requires:
     - ca-certificates
@@ -40,4 +41,6 @@ SubPackages:
           Qt Cryptographic Architecture.
       Obsoletes:
         - qca2-devel <= 2.0.3
+      Provides:
+        - qca2-devel
 
